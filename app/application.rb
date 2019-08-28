@@ -8,6 +8,7 @@ class Application
     resp.write num_1
     resp.write num_2
     resp.write num_3
+    
     if num_1==num_2 && num_2==num_3
       resp.write "You Win"
     else
